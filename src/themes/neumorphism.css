@@ -1,0 +1,38 @@
+[data-current-theme='neumorphism'] {
+  --main-color: #00c6cf !important;
+  --page-background: #e8e8e8;
+
+  --header-background: #e8e8e8;
+
+  --buttons-background: #cfd3d3;
+  --buttons-background-hover: #faf8ff;
+  --buttons-text-color-active: #ffffff;
+
+  --inputs-border-hover: #aca9bb;
+  --inputs-background-active: #f5f5f5;
+
+  --text-color: #474554;
+  --text-results-color: #7fd1ae;
+
+  --cards-background: #e8e8e8;
+  --cards-header-shadow: 10px 10px 24px #b5b5b5, -10px -10px 24px #ffffff;
+  --cards-info-background: #f5f5f5;
+}
+[data-current-theme='neumorphism'] .header-title {
+  background: conic-gradient(from -90deg at var(--title-color-Pos) 100%, #7fd1ae, #00c6cf, #7fd1ae, #00c6cf);
+}
+[data-current-theme='neumorphism'] .cards-wrapper {
+  grid-gap: 50px !important;
+}
+[data-current-theme='neumorphism'] .masked-borders {
+  box-shadow: inset 0px 0px 0px 2px var(--main-color) !important;
+}
+[data-current-theme='neumorphism'] .Inputs-header {
+  box-shadow: 0px 0px 24px #b5b5b5, -10px -10px 24px #ffffff !important;
+}
+[data-current-theme='neumorphism'] .card-info-button {
+  fill: #aca9bb !important;
+}
+[data-current-theme='neumorphism'] .card-lock-icon {
+  fill: #aca9bb !important;
+}
